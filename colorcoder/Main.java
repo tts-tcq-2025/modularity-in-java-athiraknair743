@@ -14,7 +14,7 @@ public final class Main {
 
     private static void testNumberToPair(int pairNumber, MajorColor expectedMajor, MinorColor expectedMinor) {
         ColorPair colorPair = ColorCoder.getColorFromPairNumber(pairNumber);
-        System.out.println("Got pair " + colorPair.ToString());
+        System.out.println("Got pair " + colorPair.toString());
         assert colorPair.getMajor() == expectedMajor;
         assert colorPair.getMinor() == expectedMinor;
     }
