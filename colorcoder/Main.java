@@ -9,7 +9,6 @@ public final class Main {
 
         testPairToNumber(MajorColor.BLACK, MinorColor.ORANGE, 12);
         testPairToNumber(MajorColor.VIOLET, MinorColor.SLATE, 25);
-        ColorCoder.printColorCodeManual();
     }
 
     private static void testNumberToPair(int pairNumber, MajorColor expectedMajor, MinorColor expectedMinor) {
